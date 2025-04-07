@@ -58,6 +58,7 @@
         height: 48px;
         margin-bottom: 0.3rem;
         transition: transform 0.3s ease;
+        object-fit: contain;
       }
     </style>
   </head>
@@ -79,26 +80,77 @@
           </ul>
         </header>
 
-        <div class="section-divider"></div>
-        <section id="about">
-          <h2>About Me</h2>
-          <p>
-            I’m a DevOps and Site Reliability Engineer with hands-on experience designing and automating scalable infrastructure across AWS and Kubernetes platforms. My background bridges cloud-native development, infrastructure as code, observability, and CI/CD pipelines.
-          </p>
-          <p>
-            I’ve worked with organizations across robotics, and enterprise software domains, where I led deployments using ArgoCD, Helm, Terraform, and Docker — always with a focus on reliability, repeatability, and clean infrastructure design.
-          </p>
-        </section>
 
-        <div class="section-divider"></div>
-        <section id="experience">
-          <!-- Experience entries remain unchanged -->
-        </section>
+                <div class="section-divider"></div>
+                <section id="about">
+                    <h2>About Me</h2>
+                    <p>
+                        I’m a DevOps and Site Reliability Engineer with hands-on experience designing and automating scalable infrastructure across AWS and Kubernetes platforms. My background bridges cloud-native development, infrastructure as code, observability, and CI/CD pipelines.
+                    </p>
+                    <p>
+                        I’ve worked with organizations across robotics, and enterprise software domains, where I led deployments using ArgoCD, Helm, Terraform, and Docker — always with a focus on reliability, repeatability, and clean infrastructure design.
+                    </p>
+                </section>
 
-        <div class="section-divider"></div>
-        <section id="projects">
-          <!-- Projects remain unchanged -->
-        </section>
+                <div class="section-divider"></div>
+                <section id="experience">
+                    <h2>Experience</h2>
+
+                    <div class="job">
+                        <h3><i class="fa fa-briefcase"></i> Site Reliability Engineer – Giza Systems</h3>
+                        <p class="job-meta"><i class="fa fa-calendar"></i> Sep 2024 – Feb 2025 &nbsp; | &nbsp; <i class="fa fa-map-marker"></i> Cairo, Egypt</p>
+                        <ul class="tight-list">
+                            <li>Managed Kubernetes clusters (multi-master, kubeadm) for staging and production workloads.</li>
+                            <li>Built a scalable messaging pipeline using MQTT, Kafka, and Elasticsearch.</li>
+                            <li>Set up centralized logging with Fluent Bit, Loki, and Grafana.</li>
+                            <li>Automated CI/CD pipelines with ArgoCD and Helm; explored OpenShift pipelines.</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <h3><i class="fa fa-briefcase"></i> Electrical Team Lead – MIA Robotics</h3>
+                        <p class="job-meta"><i class="fa fa-calendar"></i> Dec 2019 – Jun 2022 &nbsp; | &nbsp; <i class="fa fa-map-marker"></i> Alexandria, Egypt</p>
+                        <ul class="tight-list">
+                            <li>Led integration and control of autonomous robots.</li>
+                            <li>Represented Egypt at ABU Robocon (China 2021, India 2022).</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <h3><i class="fa fa-briefcase"></i> Embedded Hardware Research Assistant – Autotronics Research Lab</h3>
+                        <p class="job-meta"><i class="fa fa-calendar"></i> Nov 2021 – Jan 2022 &nbsp; | &nbsp; <i class="fa fa-map-marker"></i> Cairo, Egypt</p>
+                        <ul class="tight-list">
+                            <li>Developed embedded circuits and low-level drivers for autonomous vehicle control systems.</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <h3><i class="fa fa-briefcase"></i> Embedded Software Engineer – Egyptian Space Agency</h3>
+                        <p class="job-meta"><i class="fa fa-calendar"></i> Jul 2021 – Sep 2021 &nbsp; | &nbsp; <i class="fa fa-map-marker"></i> Cairo, Egypt</p>
+                        <ul class="tight-list">
+                            <li>Developed control software for satellite tracking systems.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <div class="section-divider"></div>
+                <section id="projects">
+                    <h2>Projects</h2>
+
+                    <h3>Scalable Web Application on AWS</h3>
+                    <p>
+                        Designed a fault-tolerant, multi-AZ architecture with EC2, ALB, S3, RDS, and Route 53. Used Elastic Beanstalk for CI/CD automation, integrated CloudWatch for logging and alerting.<br />
+                        <a href="https://github.com/Tarek9100/Scalable-Web-Application-Architecture-on-AWS" 
+                        class="cta-link" target="_blank">View on GitHub</a>
+                    </p>
+
+                    <h3>Kubernetes Weather App</h3>
+                    <p>
+                        Built a microservices-based app using Kubernetes, Nginx Ingress, and TLS. Managed configurations securely with Secrets and ConfigMaps, implemented StatefulSets for backend.<br />
+                        <a href="https://github.com/Tarek9100/k8s-weather-app" 
+                        class="cta-link" target="_blank">View on GitHub</a>
+                    </p>
+                </section>
 
         <div class="section-divider"></div>
         <section id="skills">
