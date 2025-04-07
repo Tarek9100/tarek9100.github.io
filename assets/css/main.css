@@ -888,4 +888,80 @@
 			color: #ff7496;
 			border-color: #2c3e50;
 		}
+		/* Improve experience section layout */
+		#experience .job {
+			margin-bottom: 2.5em;
+			text-align: left;
+		}
+
+		#experience h3 {
+			font-size: 1.15em;
+			font-weight: 600;
+			margin-bottom: 0.3em;
+		}
+
+		#experience .job-meta {
+			font-size: 0.9em;
+			color: #666;
+			margin-bottom: 0.5em;
+		}
+		.job-meta i {
+			color: #888;
+			margin-right: 0.4em;
+		}
 		
+		ul.tight-list {
+			margin: 0;
+			padding-left: 1.2em;
+		}
+		
+		ul.tight-list li {
+			margin-bottom: 0.25em;
+		}
+		.section-divider {
+			margin: 3em auto;
+			width: 40%;
+			height: 2px;
+			background: linear-gradient(to right, #ff7496, #2c3e50);
+			border-radius: 1px;
+			opacity: 0.75;
+		}
+		
+		section h2 {
+			font-size: 1.75em;
+			color: #2c3e50;
+			margin-bottom: 0.75em;
+			border-bottom: 2px solid #ff7496;
+			display: inline-block;
+			padding-bottom: 0.2em;
+		}
+		
+		ul.tight-list {
+			margin: 0 0 1.5em 0;
+			padding-left: 1em;
+		}
+		
+		ul.tight-list li {
+			padding: 0.25em 0;
+		}
+		.project-thumb {
+			width: 300px;
+			height: auto;
+			border-radius: 4px;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+			margin: 1em auto;
+			display: block;
+		}
+		
+		.project-thumb:hover {
+			transform: scale(1.03);
+		}
+
+
+		/* Section divider */
+		.section-divider {
+			margin: 3em auto;
+			height: 1px;
+			background: #c8cccf;
+			width: 80%;
+		}
