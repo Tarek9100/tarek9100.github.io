@@ -976,3 +976,17 @@
 		#experience ul.tight-list {
 			text-align: left;
 		}
+
+		.skills-grid {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1.5rem;
+			justify-content: center; /* <-- Center items horizontally */
+			align-items: center;
+			margin-bottom: 2rem;
+		}
+
+		#skills {
+			text-align: center;
+		}
+		
