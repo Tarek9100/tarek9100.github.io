@@ -965,3 +965,14 @@
 			background: #c8cccf;
 			width: 80%;
 		}
+		/* Force left-alignment in Experience section */
+		#experience {
+			text-align: left;
+		}
+
+		#experience h2,
+		#experience h3,
+		#experience .job-meta,
+		#experience ul.tight-list {
+			text-align: left;
+		}
