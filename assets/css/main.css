@@ -1022,3 +1022,29 @@
 		.project-footer p {
 		  margin: 0.3rem 0;
 		}
+/* ==== CERTIFICATIONS STYLING IMPROVEMENT ==== */
+
+		#certifications {
+		  padding-top: 2rem;        /* adds space above the whole section */
+		  padding-bottom: 2rem;     /* adds space below the whole section */
+		}
+
+		#certifications h2 {
+		  margin-bottom: 1.5rem;    /* adds space between the heading and badges */
+		}
+
+		#certifications .skills-grid {
+		  gap: 2.5rem;              /* increases space between individual badges */
+		}
+
+		#certifications .skill-item {
+		  margin: 0 1rem;           /* optional extra horizontal spacing */
+		}
+
+		.badge-img {
+		  width: 100px !important;
+		  height: auto !important;
+		  border-radius: 8px;
+		  margin-bottom: 0.5rem;
+		  transition: transform 0.3s ease;
+}
