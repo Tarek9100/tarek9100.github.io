@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- ✅ New Font: Raleway -->
+    <!-- Font: Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet" />
 
     <!-- Devicon Icons -->
@@ -83,16 +83,17 @@
 
                 <div class="section-divider"></div>
                 <section id="about">
+              
                     <h2>About Me</h2>
-					<p>
-					I'm a DevOps and Cloud Engineer focused on building scalable, secure, and automated infrastructure. I specialize in designing CI/CD pipelines, managing containerized environments with Kubernetes, and orchestrating big data workflows using open-source tools like Kafka, NiFi, and Spark.
-					</p>
-					<p>
-					My approach blends infrastructure-as-code, observability, and cloud-native best practices to support fast, reliable software delivery. I’m passionate about creating systems that are not only efficient and resilient, but also easy to monitor, maintain, and evolve.
-					</p>
-					<p>
-					With hands-on experience across cloud platforms, on-premise systems, and hybrid architectures, I enjoy solving complex infrastructure challenges through automation and thoughtful design.
-					</p>
+                    <p>
+                      I am a DevOps and Cloud Engineer focused on scalable infrastructure, platform reliability, automation, and cloud-native delivery. My work spans Kubernetes platform engineering, CI/CD automation, infrastructure-as-code, observability, big data operations, and MLOps platform enablement.
+                    </p>
+                    <p>
+                      I design and operate production-oriented systems across cloud, on-premise, and hybrid environments using technologies such as Kubernetes, Docker, AWS, GCP, Terraform, Ansible, ArgoCD, Helm, Kafka, NiFi, Hadoop, Spark, Trino, Prometheus, Grafana, ELK, and InfluxDB.
+                    </p>
+                    <p>
+                      My engineering approach combines reliability, security, automation, observability, and maintainable architecture to help teams ship faster while keeping infrastructure measurable, resilient, and operationally clean.
+                    </p>
                 </section>
 
                 <div class="section-divider"></div>
@@ -102,10 +103,14 @@
 					  <h3><i class="fa fa-briefcase"></i> DevOps Engineer - Vodafone</h3>
 					  <p class="job-meta"><i class="fa fa-calendar"></i> May 2025 – Present</p>
 					  <ul class="tight-list">
-						<li>Automated scalable infrastructure and CI/CD pipelines in high-availability environments.</li>
-						<li>Maintained data platforms using Kafka, NiFi, Hadoop, Hive, Spark, and Trino.</li>
-						<li>Improved reliability and governance using Ansible, Terraform, and compliance workflows.</li>
-						<li>Implemented workflow automation and integrations using n8n to streamline internal processes and notifications.</li>
+              <li>Design and automate scalable infrastructure, CI/CD pipelines, and internal platform services for high-availability enterprise environments.</li>
+              <li>Support DevOps and data platform operations using Kafka, NiFi, Hadoop, HDFS, Hive, Spark, Trino, Sqoop, Flink, and ClickHouse.</li>
+              <li>Administer secure Kafka environments using SASL authentication and ACL-based authorization.</li>
+              <li>Build centralized observability and logging solutions using Prometheus, InfluxDB, Grafana, Logstash, and Elasticsearch.</li>
+              <li>Work on Kubernetes-based platform engineering using kubeadm, Rancher, ingress controllers, and monitoring stacks.</li>
+              <li>Contribute to internal MLOps platform setup using Kubeflow, ZenML, KServe, and Qdrant for model deployment and inference validation.</li>
+              <li>Implement workflow automation and self-service operational processes using n8n and Ansible.</li>
+              <li>Support IaC, compliance enforcement, platform reliability, and operational automation across hybrid infrastructure environments.</li>
 					  </ul>
 					</div>
 
@@ -159,6 +164,38 @@
                 <div class="section-divider"></div>
                 <section id="projects">
                     <h2>Projects</h2>
+
+          <h3>Telecom Churn MLOps GitOps Platform</h3>
+          <div class="project-wrapper">
+            <p class="project-summary">
+              An end-to-end MLOps inference platform for telecom churn prediction using FastAPI, Docker, GitHub Actions, Docker Hub, Kubernetes, ArgoCD, Kustomize, and KServe.
+            </p>
+            <div class="project-details">
+              <ul class="tight-list">
+                <li>Automated model training, Docker image build, and registry publishing through GitHub Actions.</li>
+                <li>Implemented GitOps deployment with ArgoCD and Kustomize to continuously reconcile Kubernetes manifests.</li>
+                <li>Deployed the inference service through both a Kubernetes NodePort service and a KServe custom predictor.</li>
+                <li>Validated real-time inference through live API requests in a local kind Kubernetes cluster.</li>
+              </ul>
+            </div>
+            <p><a href="https://github.com/Tarek9100/telecom-churn-mlops-gitops" class="cta-link" target="_blank" rel="noopener">View on GitHub</a></p>
+          </div>
+
+          <h3>Serverless Event-Driven Image Processing Pipeline on AWS</h3>
+          <div class="project-wrapper">
+            <p class="project-summary">
+              A resilient serverless image processing pipeline built with S3, EventBridge, SQS, Lambda, DynamoDB, CloudFront, AWS SAM, and CloudFormation.
+            </p>
+            <div class="project-details">
+              <ul class="tight-list">
+                <li>Implemented asynchronous event processing with SQS and Lambda.</li>
+                <li>Configured dead-letter queues, CloudWatch alarms, and X-Ray tracing for operational resilience.</li>
+                <li>Applied IAM least privilege and secure S3 delivery through CloudFront Origin Access Control.</li>
+                <li>Deployed infrastructure using AWS SAM and CloudFormation.</li>
+              </ul>
+            </div>
+            <p><a href="https://github.com/Tarek9100/serverless-image-processing-pipeline-aws" class="cta-link" target="_blank" rel="noopener">View on GitHub</a></p>
+          </div>
 					<h3>DevOps CI/CD Pipeline with Infrastructure Hardening</h3>
 
 					<div class="project-wrapper">
@@ -246,7 +283,7 @@
             <div class="skills-grid">
               <div class="skill-item"><i class="devicon-amazonwebservices-original colored"></i><span>AWS</span></div>
               <div class="skill-item"><i class="devicon-googlecloud-plain colored"></i><span>GCP</span></div>
-			  <div class="skill-item"><i class="devicon-azure-plain colored"></i><span>Azure</span></div>
+              <div class="skill-item"><i class="devicon-azure-plain colored"></i><span>Azure</span></div>
             </div>
           </div>
 
@@ -255,72 +292,57 @@
             <div class="skills-grid">
               <div class="skill-item"><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
               <div class="skill-item"><i class="devicon-kubernetes-plain colored"></i><span>Kubernetes</span></div>
-              <div class="skill-item">
-                <img src="assets/icons/openshift.png" alt="OpenShift" style="height: 48px; width: auto;" />
-                <span>OpenShift</span>
-              </div>
+              <div class="skill-item"><img src="assets/icons/openshift.png" alt="OpenShift" style="height: 48px; width: auto;" /><span>OpenShift</span></div>
+              <div class="skill-item"><img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/helm/icon/color/helm-icon-color.svg" alt="Helm" /><span>Helm</span></div>
+              <div class="skill-item"><img src="https://raw.githubusercontent.com/rancher/ui/master/public/assets/images/logos/main.svg" alt="Rancher" /><span>Rancher</span></div>
             </div>
           </div>
 
           <div class="skill-category">
-            <h3>CI/CD & IaC</h3>
+            <h3>CI/CD, IaC & Automation</h3>
             <div class="skills-grid">
               <div class="skill-item"><i class="devicon-jenkins-line colored"></i><span>Jenkins</span></div>
               <div class="skill-item"><i class="devicon-ansible-plain colored"></i><span>Ansible</span></div>
-              <div class="skill-item">
-                <img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/argo/icon/color/argo-icon-color.svg" alt="ArgoCD" />
-                <span>ArgoCD</span>
-              </div>
               <div class="skill-item"><i class="devicon-terraform-plain colored"></i><span>Terraform</span></div>
-              <div class="skill-item">
-                <img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/helm/icon/color/helm-icon-color.svg" alt="Helm" />
-                <span>Helm</span>
-              </div>
               <div class="skill-item"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+              <div class="skill-item"><img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/argo/icon/color/argo-icon-color.svg" alt="ArgoCD" /><span>ArgoCD</span></div>
+              <div class="skill-item"><img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/tekton/icon/color/tekton-icon-color.svg" alt="Tekton" /><span>Tekton</span></div>
+              <div class="skill-item"><img src="assets/icons/n8n.png" alt="n8n" style="height: 48px; width: auto;" /><span>n8n</span></div>
             </div>
           </div>
+
           <div class="skill-category">
-            <h3>Workflow Automation</h3>
+            <h3>Big Data, Messaging & Analytics</h3>
             <div class="skills-grid">
-              <div class="skill-item">
-                <img src="assets/icons/n8n.png" alt="n8n" style="height: 48px; width: auto;" />
-                <span>n8n</span>
-              </div>
+              <div class="skill-item"><img src="assets/images/big-data/hadoop.png" alt="Hadoop" /><span>Hadoop</span></div>
+              <div class="skill-item"><img src="assets/images/big-data/hdfs.jpg" alt="HDFS" /><span>HDFS</span></div>
+              <div class="skill-item"><img src="assets/images/big-data/nifi.png" alt="NiFi" /><span>NiFi</span></div>
+              <div class="skill-item"><img src="assets/images/big-data/hive.png" alt="Hive" /><span>Hive</span></div>
+              <div class="skill-item"><img src="assets/images/big-data/spark.png" alt="Spark" /><span>Spark</span></div>
+              <div class="skill-item"><img src="assets/images/big-data/trino.png" alt="Trino" /><span>Trino</span></div>
+              <div class="skill-item"><img src="assets/images/big-data/kafka.jpg" alt="Kafka" /><span>Kafka</span></div>
+              <div class="skill-item"><img src="assets/images/big-data/sqoop.png" alt="Sqoop" /><span>Sqoop</span></div>
+              <div class="skill-item"><img src="assets/images/big-data/clickhouse.png" alt="ClickHouse" /><span>ClickHouse</span></div>
             </div>
           </div>
-			<div class="skill-category">
-			  <h3>Big Data & Analytics</h3>
-			  <div class="skills-grid">
-				<div class="skill-item"><img src="assets/images/big-data/hadoop.png" alt="Hadoop" /><span>Hadoop</span></div>
-				<div class="skill-item"><img src="assets/images/big-data/nifi.png" alt="NiFi" /><span>NiFi</span></div>
-				<div class="skill-item"><img src="assets/images/big-data/hive.png" alt="Hive" /><span>Hive</span></div>
-				<div class="skill-item"><img src="assets/images/big-data/spark.png" alt="Spark" /><span>Spark</span></div>
-				<div class="skill-item"><img src="assets/images/big-data/trino.png"  alt="Trino" /><span>Trino</span></div>
-				<div class="skill-item"><img src="assets/images/big-data/kafka.jpg" alt="Kafka" /><span>Kafka</span></div>
-				<div class="skill-item"><img src="assets/images/big-data/hdfs.jpg" alt="HDFS" /><span>HDFS</span></div>
-				<div class="skill-item"><img src="assets/images/big-data/sqoop.png"  alt="Sqoop" /><span>Sqoop</span></div>
-				<div class="skill-item"><img src="assets/images/big-data/clickhouse.png"  alt="Sqoop" /><span>Clickhouse</span></div>
-			  </div>
-			</div>
+
           <div class="skill-category">
             <h3>Monitoring & Logging</h3>
             <div class="skills-grid">
-			<div class="skill-item">
-				<img src="https://www.vectorlogo.zone/logos/influxdata/influxdata-icon.svg" alt="InfluxDB" />
-				<span>InfluxDB</span>
-			  </div>
-              <div class="skill-item">
-                <img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/prometheus/icon/color/prometheus-icon-color.svg" alt="Prometheus" />
-                <span>Prometheus</span>
-              </div>
+              <div class="skill-item"><img src="https://www.vectorlogo.zone/logos/influxdata/influxdata-icon.svg" alt="InfluxDB" /><span>InfluxDB</span></div>
+              <div class="skill-item"><img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/prometheus/icon/color/prometheus-icon-color.svg" alt="Prometheus" /><span>Prometheus</span></div>
               <div class="skill-item"><i class="devicon-grafana-original colored"></i><span>Grafana</span></div>
-              <div class="skill-item">
-                <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="ELK Stack" />
-                <span>ELK Stack</span>
-              </div>
-              
+              <div class="skill-item"><img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="ELK Stack" /><span>ELK Stack</span></div>
             </div>
-  
+          </div>
+
+          <div class="skill-category">
+            <h3>MLOps & AI Platforms</h3>
+            <div class="skills-grid">
+              <div class="skill-item"><img src="assets/images/big-data/kubeflow.png" alt="Kubeflow" /><span>Kubeflow</span></div>
+              <div class="skill-item"><img src="assets/images/big-data/kserve.png" alt="Kserve" /><span>Kserve</span></div>
+              <div class="skill-item"><img src="assets/images/big-data/qdrant.png" alt="Qdrant" /><span>Qdrant</span></div>
+            </div>
           </div>
         </section>
 			<div class="section-divider"></div>
