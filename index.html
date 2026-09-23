@@ -164,7 +164,57 @@
                 <div class="section-divider"></div>
                 <section id="projects">
                     <h2>Projects</h2>
+          <h3>Research-to-Production AI Platform</h3>
 
+			<div class="project-wrapper featured-project">
+				<p class="project-summary">
+					An end-to-end AI infrastructure lab covering reproducible PyTorch training,
+					dataset versioning, ML experiment tracking and governance, Slurm workload
+					scheduling, Kubernetes model serving, and observability.
+				</p>
+
+
+				<div class="project-details">
+					<ul class="tight-list">
+						<li>
+							Containerized CUDA-enabled LSTM training with PyTorch and tracked
+							code, data, configuration, runtime, metrics, and model artifacts with MLflow.
+						</li>
+						<li>
+							Versioned datasets with DVC and MinIO, with dataset fingerprints
+							captured for reproducible training.
+						</li>
+						<li>
+							Benchmarked GPU training across batch sizes, mixed precision,
+							CUDA memory behavior, data transfers, and CPU/GPU throughput.
+						</li>
+						<li>
+							Built a three-node Slurm cluster demonstrating multi-node jobs,
+							resource allocation, contention, pending states, backfill,
+							cancellation, and troubleshooting.
+						</li>
+						<li>
+							Deployed PyTorch inference on a two-node K3s cluster using KServe,
+							Knative, and Istio, validating scale-to-zero and cold-start behavior.
+						</li>
+						<li>
+							Implemented baseline-based model quality gates and
+							Prometheus/Grafana observability for serving workloads.
+						</li>
+					</ul>
+				</div>
+
+				<p>
+					<a
+						href="https://github.com/Tarek9100/research-to-production-ai-platform"
+						class="cta-link"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						View Project on GitHub
+					</a>
+				</p>
+			</div>
           <h3>Telecom Churn MLOps GitOps Platform</h3>
           <div class="project-wrapper">
             <p class="project-summary">
